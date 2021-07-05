@@ -1,0 +1,59 @@
+.chatInput {
+	border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.chatInput > form {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.chatInput > form > input {
+	/* position: fixed;
+	bottom: 30px; */
+	width: 90%;
+	border: 1px solid var(--gray);
+	border-radius: 3px;
+	padding: 20px;
+}
+
+@media (max-width: 992px){
+    .chatInput > form > input{
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px){
+    .chatInput > form > input{
+        width: 70%;
+    }
+}
+
+.chatInput > form > button {
+	display: none;
+	color: var(--white-color);
+	background-color: var(--slack-color);
+}
+
+.chatInput > form > button:hover {
+	background-color: var(--slack-color-hover);
+}
+
+#attachFileIcon{
+    position: relative;
+    right: 45px;
+    top: 15px;
+    cursor: pointer;
+    color: var(--gray);
+}
+
+#fileCount{
+    background-color: black;
+    color:white;
+    position: relative;
+    right: 47px;
+    top: 10px;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
