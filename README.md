@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Slack Clone
+## [Live Demo](https://slack-clone-dffc6.web.app/)
+
+## Project Description
+The project features a minimal version of Slack developed using React. The deployed application has Google Login support using Firebase authentication. Further, the users can create channels, use the application for live chat, and share files through chat. Shared files are stored in Firebase storage whereas MongoDB features from Firebase Database allow CRUD operations for messages. The project makes use of [MaterialUI](https://material-ui.com/) framework for styling and responsiveness purposes.
+
+# General React Guidelines
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
